@@ -1,0 +1,295 @@
+===== RUN 1: first start, adding / searching / updating / analysing =====
+No previous data found. Starting fresh.
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Enter Expense ID: Enter Amount: Select Category (1-Food 2-Travel 3-Shopping 4-Education 5-Others): Enter Date (DD-MM-YYYY): Enter Description: Expense added successfully!
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Enter Expense ID: Enter Amount: Select Category (1-Food 2-Travel 3-Shopping 4-Education 5-Others): Enter Date (DD-MM-YYYY): Enter Description: Expense added successfully!
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Enter Expense ID: Expense ID 101 already exists! Use a different ID.
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Enter Expense ID: Enter Amount: Select Category (1-Food 2-Travel 3-Shopping 4-Education 5-Others): Invalid category! Choose 1 to 5.
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Invalid input! Please enter a number from 1 to 8.
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Enter Expense ID: Enter Amount: Invalid amount! Amount must be greater than 0.
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Enter Expense ID: Enter Amount: Select Category (1-Food 2-Travel 3-Shopping 4-Education 5-Others): Enter Date (DD-MM-YYYY): Enter Description: Expense added successfully!
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Enter Expense ID: Enter Amount: Select Category (1-Food 2-Travel 3-Shopping 4-Education 5-Others): Enter Date (DD-MM-YYYY): Enter Description: Expense added successfully!
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Invalid input! Please enter a number from 1 to 8.
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: 
+ID     Amount     Category    Date         Description
+----------------------------------------------------------------
+101    250.50     Food        18-11-2026   Lunch at canteen
+102    40.00      Travel      18-11-2026   Auto to college
+104    1200.00    Education   17-11-2026   C programming book
+105    899.00     Shopping    16-11-2026   New shoes
+----------------------------------------------------------------
+Total records: 4
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Enter Expense ID to search: 
+Expense found:
+ID          : 102
+Amount      : 40.00
+Category    : Travel
+Date        : 18-11-2026
+Description : Auto to college
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Enter Expense ID to search: Expense with ID 999 not found.
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Enter Expense ID to update: Current: 899.00 | Shopping | 16-11-2026 | New shoes
+Enter new Amount: Select new Category (1-Food 2-Travel 3-Shopping 4-Education 5-Others): Enter new Date (DD-MM-YYYY): Enter new Description: Expense updated successfully!
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Total expenses (4 records): 2240.50
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: 
+Category     Amount       Share
+-----------------------------------
+Food         250.50       11.2%
+Travel       40.00        1.8%
+Shopping     750.00       33.5%
+Education    1200.00      53.6%
+Others       0.00         0.0%
+-----------------------------------
+TOTAL        2240.50
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Data saved. Exiting program. Goodbye!
+
+===== RUN 2: program restarted - data loaded from expenses.dat, then delete =====
+4 expense(s) loaded from file.
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: 
+ID     Amount     Category    Date         Description
+----------------------------------------------------------------
+101    250.50     Food        18-11-2026   Lunch at canteen
+102    40.00      Travel      18-11-2026   Auto to college
+104    1200.00    Education   17-11-2026   C programming book
+105    750.00     Shopping    16-11-2026   Shoes (discounted)
+----------------------------------------------------------------
+Total records: 4
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Enter Expense ID to delete: Expense with ID 102 deleted successfully!
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: 
+ID     Amount     Category    Date         Description
+----------------------------------------------------------------
+101    250.50     Food        18-11-2026   Lunch at canteen
+104    1200.00    Education   17-11-2026   C programming book
+105    750.00     Shopping    16-11-2026   Shoes (discounted)
+----------------------------------------------------------------
+Total records: 3
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Total expenses (3 records): 2200.50
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: 
+Category     Amount       Share
+-----------------------------------
+Food         250.50       11.4%
+Travel       0.00         0.0%
+Shopping     750.00       34.1%
+Education    1200.00      54.5%
+Others       0.00         0.0%
+-----------------------------------
+TOTAL        2200.50
+
+========== PERSONAL EXPENSE TRACKER ==========
+1. Add Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. Total Expenses
+7. Category-wise Analysis
+8. Exit
+Enter your choice: Data saved. Exiting program. Goodbye!
